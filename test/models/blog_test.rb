@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class BlogTest < ActiveSupport::TestCase
-  test "the truth" do
-    p blogs(:my_blog).authors
+  test "we can reach a blog's authors" do
+    #p blogs(:my_blog).authors
   end
 end
