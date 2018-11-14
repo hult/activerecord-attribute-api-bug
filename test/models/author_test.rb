@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class AuthorTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "we can reach an author's readers" do
+    p authors(:f_scott).readers
+  end
 end
